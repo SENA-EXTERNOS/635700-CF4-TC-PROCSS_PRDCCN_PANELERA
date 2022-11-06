@@ -191,16 +191,20 @@
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Técnicas de limpieza de la materia prima
 
-    .row.justify-content-around.align-items-center.mt-5
-      .col-8 
+    .row.tarjeta.justify-content-around.align-items-center.mt-5
+      .col-9
         .row(titulo="Manejo de jugos")
           .col-md-12.mb-4.mb-md-5
             .tarjeta.color-tarjetas.p-4.mb-4
               p.mb-5 Para la limpieza de la materia prima, se utiliza un equipo llamado pre-limpiador, el cual está soportado por una malla filtrante que utiliza el principio de separación física por densidad. Las partículas pesadas van al fondo del antefiltro y las partículas ligeras se separan por flotación. Debe mantenerse separado del molinillo para evitar la contaminación por otros medios. Por lo tanto, el jugo crudo se envía a través de una tubería de plástico al pre-limpiador. Se recomienda el uso del pre-limpiador cuando el volumen de molienda es inferior a 1 tonelada por hora, (Prada, L., 2002).
         
-      .col-2
+      .col-3.d-none.d-lg-flex.position-relative
         figure
-          img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-13.svg')
+          img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-13.svg')    
+
+
+
+
 
       p.mb-5 En el video que se presenta a continuación, aprenderá sobre las condiciones de saneamiento, una técnica que siempre debe ser incluida en los procesos de limpieza de la materia prima.
       
@@ -223,7 +227,7 @@
           .col-md-3
             figure
               img(src='@/assets/curso/temas/T1/img-14.png', alt='Texto que describa la imagen')
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7
             h4.mb-2 Apronte de la caña
             p.mb-3 Es necesario asegurarse de que la caña esté en su madurez óptima. Para obtener mayores rendimientos en la producción de panela, los productores deben plantar las variedades más adecuadas para su zona. Para que la caña llegue en buenas condiciones a la planta de producción, no deben ser incinerados ni sometidos a esfuerzos mecánicos para evitar la transferencia de impurezas al producto.
             p También es imperativo mantener al ganado (perros, gallinas, gatos, etc.) alejado del área de preparación. Se debe prestar especial atención a la invasión de plagas como las ratas, estas plagas son portadoras de sustancias nocivas que pueden migrar a la panela durante el proceso de producción. De manera similar, la caña de azúcar que se sospeche o se sepa que contiene parásitos, microorganismos no deseados, pesticidas, sustancias tóxicas o sustancias extrañas que no se puedan descomponer o eliminar deben desecharse de inmediato. También es importante que las cañas se procesen en el orden en que llegan.
@@ -231,7 +235,7 @@
           .col-md-3
             figure
               img(src='@/assets/curso/temas/T1/img-15.png', alt='Texto que describa la imagen')
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7
             h4.mb-2 Extracción de jugo
             p.mb-3 La producción de panela requiere el menor tiempo posible entre la cosecha y la extracción del jugo. Se recomienda retirar la punta al momento de cortar la caña, ya que, afectará la calidad de la panela, oscurecerá el producto y hará que se vea desagradable.
             p.mb-3 Por razones de seguridad, es importante limitar el acceso de personal fuera de proceso a las áreas de la fábrica. Es recomendable usar overoles y botas al cargar caña de azúcar en el ingenio y tomar precauciones para evitar la contaminación y el riesgo de accidentes.
@@ -240,14 +244,14 @@
           .col-md-3
             figure
               img(src='@/assets/curso/temas/T1/img-16.png', alt='Texto que describa la imagen')
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7
             h4.mb-2 Almacenamiento del bagazo
             p El bagazo molido se almacena en pilas de dos metros (2 m) de altura con corredores que aseguran el paso de los quemadores y la ventilación necesaria para el proceso de secado.
         .row
           .col-md-3
             figure
               img(src='@/assets/curso/temas/T1/img-17.png', alt='Texto que describa la imagen')
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7
             h4.mb-2 Zona del tren de pailas (clarificación, evaporación y concentración de jugos)
             p.mb-3 En el área donde se lleva a cabo este proceso, los vapores generados deben disiparse a través de conductos de ventilación o techo para que puedan escapar y no regresar al proceso en forma de gotas. La corteza utilizada para la clarificación del jugo debe lavarse con agua potable, ya sea que se empape directamente en el jugo o que la solución clarificada se prepare en un tanque separado. También es fundamental que los tanques y equipos utilizados para fabricar y aplicar el agente de limpieza estén en buenas condiciones, limpios y desinfectados.
             p Si es necesario controlar el pH del zumo, la sustancia añadida debe ser de carácter nutritivo (cal, bicarbonato, etc.). Se añade aceite (un agente antiespumante) para evitar la formación de espuma en la sartén, pero debe ser apto para alimentos, es decir, apto para el consumo humano. Es importante que nunca se añada claral (hidrosulfito de sodio) ni colorantes de ningún tipo en la elaboración de la panela.
@@ -255,7 +259,7 @@
           .col-md-3
             figure
               img(src='@/assets/curso/temas/T1/img-17.png', alt='Texto que describa la imagen')
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7
             h4.mb-2 Zona del tren de pailas (clarificación, evaporación y concentración de jugos)
             p.mb-3 Las cajas para transportar jugo o miel que no estén en uso deben dejarse sin contaminar (no apoyadas en el piso o las paredes). Tampoco es recomendable dejarlos en una zona que suponga un peligro para el operador o para otras personas que transiten por la zona.
             p Se recomienda una bandeja de acero inoxidable, que es un material adecuado para manipular alimentos; también poner una sábana doblada o "babero" del mismo material entre ellos para evitar salpicaduras de jugo.
@@ -263,7 +267,7 @@
           .col-md-3
             figure
               img(src='@/assets/curso/temas/T1/img-18.png', alt='Texto que describa la imagen')
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7
             h4.mb-2 Batido y moldeo
             p.mb-3 Esta área es la más exigente en términos de esterilidad del proceso para garantizar la seguridad de la panela. Durante estas etapas se eliminan las condiciones de alta temperatura que existían durante la concentración del jugo y se comienza a trabajar a temperaturas más bajas que favorecen el crecimiento microbiano. Por lo tanto, estas etapas requieren una atención especial a todos los elementos, equipos, instrumentos y personal que entran en contacto con el producto.
             p El jarabe que sale de la cubeta de espesamiento debe transferirse al bol a través del canal de acero inoxidable y con la ayuda de la carcasa. Recomendamos que la bandeja tenga ruedas para facilitar tanto el traslado a los mesones como las operaciones de limpieza.
@@ -271,21 +275,21 @@
           .col-md-3
             figure
               img(src='@/assets/curso/temas/T1/img-18.png', alt='Texto que describa la imagen')
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7
             p.mb-3 El propósito del paso de evaporación anterior era eliminar el agua del jugo, por lo que no se debe agregar agua al batido; esto puede acortar la vida útil de panela y agregar impurezas al producto. Los gérmenes son invisibles a simple vista, se pueden producir o transmitir de un alimento a otro por contacto directo, manos sucias de los trabajadores, utensilios mal higienizados (mesas, cajones, etc.), o a través del aire, por ello, es muy importante seguir las normas establecidas, protocolos para los procesos de limpieza y desinfección del personal (manos del operador), equipos e instalaciones. El molde debe estar libre de óxido y en perfectas condiciones. 
             p Los tanques para la limpieza de utensilios como cajones y tarimas deben cambiarse de agua potable cada seis (6) horas para evitar la propagación de microorganismos.
         .row
           .col-md-3
             figure
               img(src='@/assets/curso/temas/T1/img-19.png', alt='Texto que describa la imagen')
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7
             h4.mb-2 Enfriamiento
             p Es importante llevar la panela a temperatura ambiente antes de empacar y envasar. El espacio previsto para este fin debe evitar la contaminación y permitir que el producto alcance la temperatura adecuada. Esto se debe a que el envasado en caliente aumenta la humedad, lo que puede provocar contaminación microbiana.
         .row
           .col-md-3
             figure
               img(src='@/assets/curso/temas/T1/img-20.png', alt='Texto que describa la imagen')
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7
             h4.mb-2 Envase y embalaje
             p.mb-3 El material del empaque individual debe proteger la panela de la contaminación y mantener el producto en buenas condiciones hasta que llegue al consumidor; debe estar completamente sellado para evitar la entrada de contaminantes. La envoltura retráctil es la opción más nueva.
             p Las panelas son empacadas en cajas de cartón, cuya resistencia les permite ser manipulados en áreas de almacenamiento sin sufrir daños durante el transporte a los centros de distribución. La identificación adecuada debe ser posible tanto en el paquete individual como en el embalaje final.
@@ -293,7 +297,7 @@
           .col-md-3
             figure
               img(src='@/assets/curso/temas/T1/img-21.png', alt='Texto que describa la imagen')
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7
             h4.mb-2 Almacenamiento
             p.mb-3 La panela debe almacenarse en un ambiente seco con baja humedad relativa en un almacén limpio dedicado para este fin. Se recomienda ventilar el almacén y aislarlo lo más posible para evitar la humedad y la contaminación del producto.
             p.mb-3 Es un producto higroscópico, debe almacenarse lejos de las áreas húmedas del proceso de concentración donde hay vapor presente y el producto puede absorber humedad y deteriorarse. También es importante mantenerlo alejado de la basura y otras fuentes de contaminación.
@@ -302,7 +306,7 @@
           .col-md-3
             figure
               img(src='@/assets/curso/temas/T1/img-21.png', alt='Texto que describa la imagen')
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7
             h4.mb-2 Transporte
             p.mb-3 Los productos deben protegerse durante el transporte para evitar la contaminación por fuentes microbiológicas, físicas o químicas. A pesar de las precauciones tomadas en operaciones anteriores, el riesgo de deterioro y contaminación del producto es muy alto si no se mantiene la higiene durante el transporte. El transporte debe ser de origen alimenticio y preferiblemente dedicado a la panela. Es importante mantenerlos limpios y en buen estado, y desinfectarlos cuando sea necesario.
             p El empaque debe proteger el producto de factores como polvo, vapores de gasolina, olores y otras sustancias que puedan alterar el producto. La contaminación física durante el transporte se evita asegurando que el vehículo esté libre de astillas, clavos u otros elementos que puedan dañar el paquete. Si se utiliza el mismo transporte para diferentes alimentos u otros artículos no alimentarios, es imperativo que se limpie y desinfecte a fondo entre cada carga.
@@ -310,7 +314,7 @@
           .col-md-3
             figure
               img(src='@/assets/curso/temas/T1/img-22.png', alt='Texto que describa la imagen')
-          .col-md-7.mb-4.mb-md-0
+          .col-md-7
             p.mb-3 Es importante llevar y mantener registros de la producción y distribución de panela. Debe indicar la cantidad producida, la cantidad en stock, la composición y el número del lote retirado, la región de distribución (por ejemplo, local, nacional o internacional) y el motivo del retiro. Este documento da confianza al sistema de control de seguridad implementado por la planta de fabricación.
             p No se permite mezclar lotes de panela de alta calidad con lotes defectuosos o lotes con niveles inaceptables de contaminación y, si esto ocurre, el producto final se considerará adulterado.
 
