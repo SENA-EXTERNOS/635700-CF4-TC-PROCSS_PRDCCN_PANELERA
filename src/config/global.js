@@ -1,7 +1,8 @@
 export default {
   global: {
     componenteFormativo: 'Requerimientos técnicos y normativos',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    descripcionCurso:
+      'La panela es un derivado de la caña de azúcar, considerado más saludable que otros azúcares refinados. En Colombia se busca que los trapiches se rijan conforme al decreto N° 3075 de 1997 donde se establecen las buenas prácticas de manufactura, y mediante la resolución 779 que establece los requisitos de higiene que se deben tener para la elaboración y comercialización de la panela.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal-1.png'),
     imagenesDecorativasBanner: [
