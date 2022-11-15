@@ -44,7 +44,7 @@
 .color-tarjetas-slyders
   background-color: #EFE8FA !important
 
-.fas, fa-plus
+.fa-plus
   color: #FFFFFF !important
 
 .slyder-a__bullets__item
@@ -60,7 +60,16 @@
   background-color: $color-acento-botones !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span 
-  color: #12263F
+  color: #12263F !important
+
+.fa-info
+  background-color: $color-acento-botones !important
+
+.tarjeta-slide 
+    height: 450px
+    position: relative
+    overflow: hidden
+
 
 //Animaciones
 .image-cover
@@ -96,3 +105,12 @@
 
 .fae
   background-color: #FBEDDF !important
+
+.traslape
+  .col-lg-4
+    z-index: 2
+  .col-lg-7.fae
+    margin: 0 0 0 -20%
+    padding: 1rem 1rem 1rem 20%
+    border-radius: 1rem 
+    z-index: 1 

@@ -68,9 +68,8 @@
               img(src='@/assets/curso/temas/T1/img-4.png', alt='Texto que describa la imagen')
 
 
-        .row(titulo="")
+        .row(titulo="Programas")
           .col-md-5.mb-4.mb-md-0
-            h4.mb-3 Programas
             p.mb-3 Un programa es un plan ordenado de varias actividades a realizar. Entre ellos, encontramos: programa de saneamiento, programa de limpieza y desinfección, programa de control de plagas, programa de manejo de residuos sólidos y líquidos, programa de mantenimiento de equipos.
             p.mb-3 En las tablas 3, 4 y 5 podrá encontrar algunos ejemplos relacionados con el programa de saneamiento, programa maestro de desinfección y programa de mantenimiento de equipos. 
         
@@ -81,9 +80,9 @@
                   p.mb-1 <b>Tabla 3.</b><i> Ejemplo de programa de saneamiento</i>
               img(src='@/assets/curso/temas/T1/img-5.png', alt='Texto que describa la imagen')
               
-        .row(titulo="")
+        .row(titulo="Programas")
           .col-md-3.mb-4.mb-md-0
-            h4.mb-3 Programas
+            
         
           .col-md-9
             figure
@@ -191,7 +190,7 @@
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Técnicas de limpieza de la materia prima
 
-    .row.tarjeta.justify-content-around.align-items-center.mt-5
+    .row.tarjeta.justify-content-around.align-items-center
       .col-9
         .row(titulo="Manejo de jugos")
           .col-md-12.mb-4.mb-md-5

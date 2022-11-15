@@ -199,12 +199,12 @@
       img(src='@/assets/curso/temas/T2/img-13.png', alt='Texto que describa la imagen')
 
 
-    .row.tarjeta.mt-5.p-5.fae.mt-5
-      .col-5.d-none.d-lg-flex.position-relative
-        figure.position-absolute(style="top:-75%;")
+    .row.traslape.justify-content-center.align-items-center.mb-5
+      .col-lg-4
+        figure
           img(src='@/assets/curso/temas/T2/img-14.png', alt='Texto que describa la imagen')
 
-      .col-7.col-lg-5
+      .col-lg-7.fae
         p <b>¡Muy bien!</b> ha finalizado el estudio de este componente formativo a través del cual ha aprendido sobre los requerimientos técnicos y normativos. Ahora lo invitamos a estudiar la síntesis donde podrá recordar de forma general los saberes que se han desarrollado, a realizar la actividad de aprendizaje donde podrá colocar a prueba lo aprendido, a consultar el material complementario que le servirá como refuerzo y profundización y estudiar el glosario.  
       
 
