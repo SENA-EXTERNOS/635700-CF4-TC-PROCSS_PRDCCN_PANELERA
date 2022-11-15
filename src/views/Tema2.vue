@@ -51,41 +51,81 @@
     p.mb-5 A continuación, se presentan cada uno de los procesos de transformación:
 
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta.fad.p-0
-        img(src='@/assets/curso/temas/T2/img-3.png' alt='AvatarTop')
-        h2.text-center Planta
-        p.text-center La planta de producción de panela cuenta con un molinillo que extrae el jugo de la caña de azúcar que pasa por un tanque de prelavado. Aquí es donde nace el bagacillo y se compone de tierra, raíces, hojas y otras impurezas que llegan a la fábrica con la planta, (Ospina, 2019).
+    SlyderF.mb-5(columnas="col-lg-8 col-xl-4")
+      .row.mb-0
+        .col
+          .tarjeta.tarjeta-slide.arriba.fad(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h2.text-center Planta
+                p.text-center La planta de producción de panela cuenta con un molinillo que extrae el jugo de la caña de azúcar que pasa por un tanque de prelavado. Aquí es donde nace el bagacillo y se compone de tierra, raíces, hojas y otras impurezas que llegan a la fábrica con la planta, (Ospina, 2019).
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/T2/img-3.png')})`}")
+      
+      .row.mb-0
+        .col
+          .tarjeta.tarjeta-slide.arriba.fad(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h2.text-center Sobrantes
+                p.text-center Los sobrantes de fibra vegetal (bagazo) producidos en la fábrica son suministrados a la bagacera donde se almacenan para uso como combustible de horno, (Ospina, 2019).
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/T2/img-4.png')})`}")
+      
+      .row.mb-0
+        .col
+          .tarjeta.tarjeta-slide.arriba.fad(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h2.text-center Jugo
+                p.text-center El jugo pre purificado ya extraído se lleva a un pozo donde se almacena el producto y finalmente a un horno utilizado para la concentración y evaporación de la miel. Se añade un coagulante durante este último proceso, (Ospina, 2019).
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/T2/img-5.png')})`}")
 
-      .tarjeta.fad.p-0
-        img(src='@/assets/curso/temas/T2/img-4.png' alt='AvatarTop')
-        h2.text-center Sobrantes
-        p.text-center Los sobrantes de fibra vegetal (bagazo) producidos en la fábrica son suministrados a la bagacera donde se almacenan para uso como combustible de horno, (Ospina, 2019).
+      
+      .row.mb-0
+        .col
+          .tarjeta.tarjeta-slide.arriba.fad(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h2.text-center Coagulante
+                p.text-center El proceso de obtención del coagulante comienza con la extracción de fibras del árbol (balso o cadillo). Las fibras se maceran y se disuelven en agua hasta obtener una sustancia viscosa y se agrega al jugo de la caña a una temperatura de 50 °C en el horno, (Ospina, 2019).
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/T2/img-6.png')})`}")
+      
 
-      .tarjeta.fad.p-0
-        img(src='@/assets/curso/temas/T2/img-5.png' alt='AvatarTop')
-        h2.text-center Jugo
-        p.text-center El jugo pre purificado ya extraído se lleva a un pozo donde se almacena el producto y finalmente a un horno utilizado para la concentración y evaporación de la miel. Se añade un coagulante durante este último proceso, (Ospina, 2019).
+      .row.mb-0
+        .col
+          .tarjeta.tarjeta-slide.arriba.fad(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h2.text-center Efecto coagulante
+                p.text-center El efecto coagulante, a diferencia de la miel, es flocular las impurezas o sólidos contenidos en el jugo. Las impurezas, llamadas cachaza, son removidas y depositadas en la cachacera. Este producto tiene un alto valor nutricional para los animales (mulas o cerdos), (Ospina, 2019).
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/T2/img-7.png')})`}")
+      
+      .row.mb-0
+        .col
+          .tarjeta.tarjeta-slide.arriba.fad(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h2.text-center Tanque clarificador
+                p.text-center  El producto que sale del horno pasa al tanque clarificador, en donde se retiran las últimas impurezas que posee el producto, y son llevadas a la cachacera. El producto final es llevado al proceso de concentración de mieles, (Ospina, 2019).
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/T2/img-8.png')})`}")
 
-      .tarjeta.fad.p-0
-        img(src='@/assets/curso/temas/T2/img-6.png' alt='AvatarTop')
-        h2.text-center Coagulante
-        p.text-center El proceso de obtención del coagulante comienza con la extracción de fibras del árbol (balso o cadillo). Las fibras se maceran y se disuelven en agua hasta obtener una sustancia viscosa y se agrega al jugo de la caña a una temperatura de 50 °C en el horno, (Ospina, 2019).
+      
+      .row.mb-0
+        .col
+          .tarjeta.tarjeta-slide.arriba.fad(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h2.text-center Combustión
+                p.text-center  Después del proceso de combustión en el horno, se generan las cenizas, las cuales son un producto rico en calcio, fósforo y otros compuestos que, ayuda al suelo en la corrección del pH. Son muy pocos los productores que utilizan las cenizas y es usual encontrar en la planta de producción la acumulación de estas, (Ospina, 2019).
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/T2/img-9.png')})`}")
 
-      .tarjeta.fad.p-0
-        img(src='@/assets/curso/temas/T2/img-7.png' alt='AvatarTop')
-        h2.text-center Efecto coagulante
-        p.text-center El efecto coagulante, a diferencia de la miel, es flocular las impurezas o sólidos contenidos en el jugo. Las impurezas, llamadas cachaza, son removidas y depositadas en la cachacera. Este producto tiene un alto valor nutricional para los animales (mulas o cerdos), (Ospina, 2019).
-
-      .tarjeta.fad.p-0
-        img(src='@/assets/curso/temas/T2/img-8.png' alt='AvatarTop')
-        h2.text-center Tanque clarificador
-        p.text-center El producto que sale del horno pasa al tanque clarificador, en donde se retiran las últimas impurezas que posee el producto, y son llevadas a la cachacera. El producto final es llevado al proceso de concentración de mieles, (Ospina, 2019).
-
-      .tarjeta.fad.p-0
-        img(src='@/assets/curso/temas/T2/img-9.png' alt='AvatarTop')
-        h2.text-center Combustión
-        p.text-center Después del proceso de combustión en el horno, se generan las cenizas, las cuales son un producto rico en calcio, fósforo y otros compuestos que, ayuda al suelo en la corrección del pH. Son muy pocos los productores que utilizan las cenizas y es usual encontrar en la planta de producción la acumulación de estas, (Ospina, 2019).
+      
 
     ol.lista-ol--cuadro.mb-4
       li
@@ -120,7 +160,7 @@
         li 
           .lista-ol--cuadro__vineta
             span c
-          | Sólo se permite el reenvase de panelas en establecimientos autorizados por la Entidad Territorial de Salud procedentes de trapiches que cumplan con los requisitos sanitarios establecidos en el reglamento técnico que se establece a través de la presente resolución” (Ministerio de la Protección Social, 2006).
+          | Solo se permite el reenvase de panelas en establecimientos autorizados por la Entidad Territorial de Salud procedentes de trapiches que cumplan con los requisitos sanitarios establecidos en el reglamento técnico que se establece a través de la presente resolución” (Ministerio de la Protección Social, 2006).
 
     ol.lista-ol--cuadro.mb-4
       li
@@ -141,7 +181,7 @@
     Separador
 
     #t_2_2.titulo-segundo.color-acento-contenido
-      h2 2.2 Recolección de la caña panelera
+      h2 2.2 Descripción de los residuos 
 
     .row.mb-5
       .col-2
@@ -153,7 +193,7 @@
         
     .titulo-sexto.color-acento-contenido
       p.mb-0 
-        p.mb-1 <b>Figura 4.</b><i>Residuos de la caña</i>
+        p.mb-1 <b>Figura 6.</b><i>Residuos de la caña</i>
 
     figure.mb-5
       img(src='@/assets/curso/temas/T2/img-13.png', alt='Texto que describa la imagen')

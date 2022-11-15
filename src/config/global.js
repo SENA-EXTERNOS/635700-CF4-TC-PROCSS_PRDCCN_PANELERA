@@ -201,7 +201,7 @@ export default {
     {
       termino: 'Orden de trabajo',
       significado:
-        'documento que contiene instrucciones escritas y procedimientos de apoyo para actividades específicas. Algunos de ellos son: Instructivo de limpieza, Instructivo de desinfección.',
+        'documento que contiene instrucciones escritas y procedimientos de apoyo para actividades específicas. Algunos de ellos son: instructivo de limpieza, Instructivo de desinfección.',
     },
     {
       termino: 'Residuos',

@@ -38,7 +38,7 @@
     p.mb-5 A continuación, se presentan los documentos principales que deben ser considerados en la producción de la panela:
 
 
-    .tarjeta.tarjeta--gris.p-4.mb-5
+    .tarjeta.color-tarjetas-slyders.p-4.mb-5
       PasosB.color-secundario
         .row(titulo="")
           .col-md-5.mb-4.mb-md-0
@@ -217,7 +217,7 @@
       li
         .lista-ol--cuadro__vineta.faa
           span 
-        p <b>Condiciones de saneamiento </b>
+        p <b>Condiciones del proceso de fabricación </b>
 
     p.mb-5 Desde la preparación del producto hasta el almacenamiento, es decir, todas las operaciones involucradas en el proceso de fabricación de la panela, se centran en las condiciones necesarias y la importancia de los controles para reducir el riesgo de contaminación del producto.
 
@@ -252,7 +252,6 @@
             figure
               img(src='@/assets/curso/temas/T1/img-17.png', alt='Texto que describa la imagen')
           .col-md-7
-            h4.mb-2 Zona del tren de pailas (clarificación, evaporación y concentración de jugos)
             p.mb-3 En el área donde se lleva a cabo este proceso, los vapores generados deben disiparse a través de conductos de ventilación o techo para que puedan escapar y no regresar al proceso en forma de gotas. La corteza utilizada para la clarificación del jugo debe lavarse con agua potable, ya sea que se empape directamente en el jugo o que la solución clarificada se prepare en un tanque separado. También es fundamental que los tanques y equipos utilizados para fabricar y aplicar el agente de limpieza estén en buenas condiciones, limpios y desinfectados.
             p Si es necesario controlar el pH del zumo, la sustancia añadida debe ser de carácter nutritivo (cal, bicarbonato, etc.). Se añade aceite (un agente antiespumante) para evitar la formación de espuma en la sartén, pero debe ser apto para alimentos, es decir, apto para el consumo humano. Es importante que nunca se añada claral (hidrosulfito de sodio) ni colorantes de ningún tipo en la elaboración de la panela.
         .row
@@ -337,27 +336,21 @@
           img(src='@/assets/curso/temas/T1/img-23.png', alt='Texto que describa la imagen')
 
       div(x="19%" y="15%" tooltip="Antecedentes")
-        h5 Antecedentes
         p No existen estudios en esta área que analicen el impacto ambiental, social y de desarrollo humano de los productos procesados de caña de azúcar. Esto quiere decir que, solo se han encontrado y no enmarcados estudios generales en la producción de panela en los campos ambiental y social. 
 
       div(x="12%" y="49%" tooltip="¿Quiénes están a cargo?")
-        .h5.mb-2 ¿Quiénes están a cargo?
         p Principalmente las alcaldías, gobernaciones y las agencias gubernamentales responsables de todos estos temas y de los impactos ambientales.
 
       div(x="20%" y="83%" tooltip="El papel que juega la agricultura")
-        .h5.mb-2 El papel que juega la agricultura
-        p Vale la pena señalar que la agricultura produce materias primas para la industria alimentaria, la mayoría de las cuales se destinan a la exportación a otras partes del país. La economía campesina se basa en la producción de alimentos a través de la agricultura tradicional, la cual está destinada al autoconsumo, con excepción del café, y comercializa sólo los excedentes en el mercado local de panela.
+        p Vale la pena señalar que la agricultura produce materias primas para la industria alimentaria, la mayoría de las cuales se destinan a la exportación a otras partes del país. La economía campesina se basa en la producción de alimentos a través de la agricultura tradicional, la cual está destinada al autoconsumo, con excepción del café, y comercializa solo los excedentes en el mercado local de panela.
 
       div(x="78%" y="15%" tooltip="El manejo adecuado de los residuos sólidos")
-        .h5.mb-2 El manejo adecuado de los residuos sólidos
         p Esta gestión incluye el manejo adecuado de los residuos sólidos, el control de las descargas de aguas residuales a los cuerpos de agua, la contaminación del aire por incineración y liberación de partículas de ceniza al medio ambiente, y el ruido por la realización de algunas actividades directas que impactan el medio ambiente, las comunidades circundantes y animales.
 
       div(x="85%" y="49%" tooltip="¿Qué hacer?")
-        .h5.mb-2 ¿Qué hacer?
         p Por estas razones, se debe implementar y gestionar constantemente como referencia un plan que incluya aspectos como el uso y conservación de los recursos hídricos y energéticos, la disposición adecuada de los residuos sólidos y el control de la calidad de las emisiones producidas.
 
       div(x="78%" y="83%" tooltip="tooltip de max 35 caracteres")
-        .h5.mb-2 ¿Cómo hacerlo?
         p Para hacer todo lo anterior, se debe ejecutar un ciclo PHVA. A continuación, se debe realizar una adecuada formación y sensibilización del 100 % del personal implicado en el proceso. Además, este sistema debe estar totalmente respaldado por los registros y controles necesarios, la supervisión y la mejora continua del sistema.
 
     ol.lista-ol--cuadro.mb-4
@@ -394,7 +387,7 @@
 
     p.mb-5 <b>Ahora se revisarán cada una de las actividades, aspectos e impactos que se presentan en el proceso de producción de la panela: </b>
 
-    .tarjeta.tarjeta--gris.p-4.mb-5
+    .tarjeta.color-tarjetas-slyders.p-4.mb-5
       PasosB.color-secundario
         .row(titulo="")
           .col-md-3.mb-4.mb-md-0
@@ -428,7 +421,7 @@
             figure
               .titulo-sexto.color-acento-contenido
                 p.mb-0 
-                  p.mb-1 <b>Tabla 9.</b><i> Pre-limpieza</i>
+                  p.mb-1 <b>Tabla 9.</b><i> Clarificación</i>
               img(src='@/assets/curso/temas/T1/img-28.png', alt='Texto que describa la imagen')
               
         .row(titulo="")
@@ -543,14 +536,14 @@
           span 
         p <b>Ciclo PHVA</b>
 
-    p.mb-3 El ciclo PHVA es una herramienta de mejora continua, presentada por Deming a partir del año 1950, la cual se basa en un ciclo de 4 pasos: planificar (Plan), hacer (Do), verificar (Check) y actuar (Do).
+    p.mb-3 El ciclo PHVA es una herramienta de mejora continua, presentada por Deming a partir del año 1950, la cual se basa en un ciclo de 4 pasos: planificar (Plan), hacer (Do), verificar (<i>Check</i>) y actuar (Do).
     p.mb-5 A continuación, se presenta cada uno de estos pasos: 
 
     .titulo-sexto.color-acento-contenido
       p.mb-0 
         p.mb-1 <b>Figura 3.</b><i> Ciclo PHVA</i>
 
-    ImagenInfografica.color-secundario.mb-5
+    ImagenInfografica.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/T1/img-36.png', alt='Texto que describa la imagen')
