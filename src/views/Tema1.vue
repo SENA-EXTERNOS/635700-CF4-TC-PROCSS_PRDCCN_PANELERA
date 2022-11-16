@@ -220,7 +220,7 @@
 
     p.mb-5 Desde la preparación del producto hasta el almacenamiento, es decir, todas las operaciones involucradas en el proceso de fabricación de la panela, se centran en las condiciones necesarias y la importancia de los controles para reducir el riesgo de contaminación del producto.
 
-    .tarjeta.fab.p-4.mb-5
+    .tarjeta.p-4.mb-5
       SlyderA(tipo="b")
         .row
           .col-md-3
