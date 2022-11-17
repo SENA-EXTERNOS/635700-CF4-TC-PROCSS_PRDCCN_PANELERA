@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5(style="overflow:hidden")
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
@@ -518,7 +518,7 @@
         p.mb-1 <b>Tabla 13.</b><i> Secciones del Decreto 1076 de 2015 aplicables a la producción de panela</i>
 
     figure.mb-5
-      img(src='@/assets/curso/temas/T1/img-34.png', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/temas/T1/img-34.svg', alt='Texto que describa la imagen')
 
     p.mb-5 La tabla 14, muestra las resoluciones ambientales más relevantes que complementan el decreto anterior en lo que se refiere a la producción de panela.
 
@@ -527,7 +527,7 @@
         p.mb-1 <b>Tabla 14.</b><i> Resoluciones ambientales aplicables a la producción de panela</i>
 
     figure.mb-5
-      img(src='@/assets/curso/temas/T1/img-35.png', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/temas/T1/img-35.svg', alt='Texto que describa la imagen')
 
     ol.lista-ol--cuadro.mb-4
       li
@@ -547,7 +547,7 @@
         figure
           img(src='@/assets/curso/temas/T1/img-36.png', alt='Texto que describa la imagen')
 
-      .tarjeta.color-tarjeta.p-3(x="75%" y="14%" numero="+")
+      .tarjeta.color-tarjeta.p-3(x="75.5%" y="14%" tooltip="" numero="+")
         .h5.mb-2 Planificar
         ul.lista-ul.mb-3
           li 
@@ -561,7 +561,7 @@
             | Programación de cursos de capacitación para el personal responsable de cada proceso de elaboración de la panela.
 
 
-      .tarjeta.color-tarjeta.p-3(x="95%" y="48%" numero="+")
+      .tarjeta.color-tarjeta.p-3(x="94.8%" y="48%"  numero="+")
         .h5.mb-2 Hacer
         ul.lista-ul.mb-3
           li 
@@ -583,7 +583,7 @@
             | Cambiar los filtros sucios por filtros nuevos y logrando así disminuir las impurezas en el jugo de caña de azúcar.
         p La capacitación de los empleados permite buenas prácticas de fabricación en los procesos de producción de panela y permite el cumplimiento de los estándares de calidad del producto.
 
-      .tarjeta.color-tarjeta.p-3(x="25%" y="80%" numero="+")
+      .tarjeta.color-tarjeta.p-3(x="24.8%" y="80%" numero="+")
         .h5.mb-2 Verificar
         ul.lista-ul.mb-3
           li 
@@ -597,7 +597,7 @@
             | Finalmente, se realizan las evaluaciones de cumplimiento legal.
         
 
-      .tarjeta.color-tarjeta.p-3(x="5%" y="48%" numero="+")
+      .tarjeta.color-tarjeta.p-3(x="5.4%" y="48%" numero="+")
         .h5.mb-2 Actuar
         ul.lista-ul.mb-3
           li 
