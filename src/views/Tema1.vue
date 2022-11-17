@@ -547,7 +547,7 @@
         figure
           img(src='@/assets/curso/temas/T1/img-36.png', alt='Texto que describa la imagen')
 
-      .tarjeta.color-tarjeta.p-3(x="75.5%" y="14%" tooltip="" numero="+")
+      .tarjeta.color-tarjeta.p-3(x="75.4%" y="13.6%" tooltip="" numero="+")
         .h5.mb-2 Planificar
         ul.lista-ul.mb-3
           li 
