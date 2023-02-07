@@ -44,13 +44,11 @@
           .col-md-5.mb-4.mb-md-0
             h4.mb-3 Procedimiento
             p.mb-3 Un procedimiento es una forma o método de realizar una actividad. Entre ellos, encontramos: procedimiento de control de producción, procedimiento de control de plagas, procedimiento de retiro de productos, procedimiento de validación del programa de saneamiento, procedimiento de control de proveedores, procedimiento de control de productos no conformes.
-            p.mb-3 En la tabla 1, podrá identificar la estructura de un procedimiento.
+            p.mb-3 En la tabla, podrá identificar la estructura de un procedimiento.
         
           .col-md-7
             figure
-              .titulo-sexto.color-acento-contenido
-                p.mb-0 
-                  p.mb-1 <b>Tabla 1.</b><i> Estructura de un procedimiento</i>
+              
               img(src='@/assets/curso/temas/T1/img-3.png', alt='Texto que describa la imagen')
 
 
@@ -58,49 +56,35 @@
           .col-md-5.mb-4.mb-md-0
             h4.mb-3 Instrumentos de trabajo
             p.mb-3 Una orden de trabajo es un documento que contiene instrucciones escritas y procedimientos de apoyo para actividades específicas. Entre ellos encontramos: instructivo de limpieza, instructivo de desinfección e instructivo sobre el manejo de desechos.
-            p.mb-3 En la tabla 2, podrá identificar la estructura de un instructivo de trabajo. 
+            p.mb-3 En la tabla, podrá identificar la estructura de un instructivo de trabajo. 
         
           .col-md-7
             figure
-              .titulo-sexto.color-acento-contenido
-                p.mb-0 
-                  p.mb-1 <b>Tabla 2.</b><i> Estructura de un instructivo de trabajo</i>
+              
               img(src='@/assets/curso/temas/T1/img-4.png', alt='Texto que describa la imagen')
 
 
-        .row(titulo="Programas")
-          .col-md-5.mb-4.mb-md-0
-            p.mb-3 Un programa es un plan ordenado de varias actividades a realizar. Entre ellos, encontramos: programa de saneamiento, programa de limpieza y desinfección, programa de control de plagas, programa de manejo de residuos sólidos y líquidos, programa de mantenimiento de equipos.
-            p.mb-3 En las tablas 3, 4 y 5 podrá encontrar algunos ejemplos relacionados con el programa de saneamiento, programa maestro de desinfección y programa de mantenimiento de equipos. 
-        
-          .col-md-7
-            figure
-              .titulo-sexto.color-acento-contenido
-                p.mb-0 
-                  p.mb-1 <b>Tabla 3.</b><i> Ejemplo de programa de saneamiento</i>
-              img(src='@/assets/curso/temas/T1/img-5.png', alt='Texto que describa la imagen')
-              
-        .row(titulo="Programas")
-          .col-md-3.mb-4.mb-md-0
-            
-        
-          .col-md-9
-            figure
-              .titulo-sexto.color-acento-contenido
-                p.mb-0 
-                  p.mb-1 <b>Tabla 4.</b><i> Ejemplo de programa maestro de desinfección </i>
-              img(src='@/assets/curso/temas/T1/img-6.png', alt='Texto que describa la imagen')
-
         .row(titulo="")
-          .col-md-3.mb-4.mb-md-0
-            h4.mb-3 Programas
-        
-          .col-md-9
-            figure
-              .titulo-sexto.color-acento-contenido
-                p.mb-0 
-                  p.mb-1 <b>Tabla 5.</b><i> Ejemplo de programa mantenimiento de equipos</i>
-              img(src='@/assets/curso/temas/T1/img-7.png', alt='Texto que describa la imagen')
+          h4.mb-3 Programas
+          p.mb-3 Un programa es un plan ordenado de varias actividades a realizar. Entre ellos, encontramos: programa de saneamiento, programa de limpieza y desinfección, programa de control de plagas, programa de manejo de residuos sólidos y líquidos, programa de mantenimiento de equipos. 
+          p En las siguientes tablas, podrá encontrar algunos ejemplos relacionados con el programa de saneamiento, programa maestro de desinfección y programa de mantenimiento de equipos.
+          p Haga clic en cada tabla para ampliarla.
+          .col-lg-12
+            .row.justify-content-center.align-items-center.mb-5
+              .col-lg-4.mb-3
+                a.lnk(@click="modal1 = true")
+                  figure
+                    img(src='@/assets/curso/temas/T1/tbl-1.svg')
+
+              .col-lg-4.mb-3
+                a.indicador__container(@click="modal2 = true")
+                  figure
+                    img(src='@/assets/curso/temas/T1/tbl-2.svg')
+
+              .col-lg-4
+                a.indicador__container(@click="modal3 = true")
+                  figure
+                    img(src='@/assets/curso/temas/T1/tbl-3.svg')
 
         .row(titulo="")
           .col-md-5.mb-4.mb-md-0
@@ -120,13 +104,10 @@
                 i.lista-ul__vineta
                 | Fichas técnicas de productos de saneamiento.
 
-            p.mb-3 En la Tabla 6. Podrá encontrar un ejemplo de una ficha técnica de producto.
+            p.mb-3 En la tabla, podrá encontrar un ejemplo de una ficha técnica de producto.
         
           .col-md-7
             figure
-              .titulo-sexto.color-acento-contenido
-                p.mb-0 
-                  p.mb-1 <b>Tabla 6.</b><i> Ejemplo de una ficha técnica de producto.</i>
               img(src='@/assets/curso/temas/T1/img-8.png', alt='Texto que describa la imagen')
 
         .row(titulo="")
@@ -137,13 +118,14 @@
             ul.lista-ul.mb-3
               li 
                 i.lista-ul__vineta
-                | Registro de control de proveedores
+                | Registro de control de proveedores.
               li 
                 i.lista-ul__vineta
-                | Registro de operaciones de proceso
+                | Registro de operaciones de proceso.
               li 
                 i.lista-ul__vineta
-                | Registro de control de higiene del personal
+                | Registro de control de higiene del personal.
+
             p.mb-3 Las anotaciones realizadas en los registros deben ser legibles y reflejar fielmente las circunstancias que se documentan. Es importante señalar errores y cambios. Si el registro cambia y solo incluye la inspección final que ha sido corregida, se pierde información que puede usarse para mejoras futuras.
             p.mb-3 Por ejemplo, es una buena idea anotar las dimensiones originales, tachar con una línea si se ha modificado y pedirle al revisor que escriba sus iniciales al lado. Cada entrada en el registro debe ser realizada por la persona responsable cuando ocurre el evento. Los registros completos deben ser firmados y fechados por la persona responsable del monitoreo y mantenidos en el sitio de producción de panela para estar disponibles en todo momento.
         
@@ -155,13 +137,10 @@
           .col-md-5.mb-4.mb-md-0
             h4.mb-3 Listado maestro
             p.mb-3 El listado maestro es un formato que vincula todos los documentos existentes y los identifica utilizando una codificación y estructura específicas. 
-            p.mb-3 En la tabla 6, se ubica un ejemplo que le permitirá identificar la estructura de un listado maestro. 
+            p.mb-3 En la tabla, se ubica un ejemplo que le permitirá identificar la estructura de un listado maestro. 
         
           .col-md-7
             figure
-              .titulo-sexto.color-acento-contenido
-                p.mb-0 
-                  p.mb-1 <b>Tabla 6.</b><i> Ejemplo formato listado maestro</i>
               img(src='@/assets/curso/temas/T1/img-10.png', alt='Texto que describa la imagen')
 
         .row(titulo="")
@@ -184,7 +163,21 @@
         
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/T1/img-12.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-12.png')
+
+    ModalA(:abrir-modal.sync="modal1")
+      .row.align-items-center
+          figure
+            img(src='@/assets/curso/temas/T1/tbl-1.svg')
+    ModalA(:abrir-modal.sync="modal2")
+      .row.align-items-center
+          figure
+            img(src='@/assets/curso/temas/T1/tbl-2.svg')
+    ModalA(:abrir-modal.sync="modal3")
+      .row.align-items-center
+          figure
+            img(src='@/assets/curso/temas/T1/tbl-3.svg')            
+
     Separador
 
     #t_1_2.titulo-segundo.color-acento-contenido
@@ -201,11 +194,7 @@
         figure
           img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-13.svg')    
 
-
-
-
-
-      p.mb-5 En el video que se presenta a continuación, aprenderá sobre las condiciones de saneamiento, una técnica que siempre debe ser incluida en los procesos de limpieza de la materia prima.
+      p.mb-5 En el video que se presenta a continuación, aprenderá sobre las condiciones de saneamiento, una técnica que siempre debe ser incluida en los procesos de limpieza de la materia prima:
       
       figure.mb-5
         .video
@@ -218,7 +207,8 @@
           span 
         p <b>Condiciones del proceso de fabricación </b>
 
-    p.mb-5 Desde la preparación del producto hasta el almacenamiento, es decir, todas las operaciones involucradas en el proceso de fabricación de la panela, se centran en las condiciones necesarias y la importancia de los controles para reducir el riesgo de contaminación del producto.
+    p.mb-3 Desde la preparación del producto hasta el almacenamiento, es decir, todas las operaciones involucradas en el proceso de fabricación de la panela, se centran en las condiciones necesarias y la importancia de los controles para reducir el riesgo de contaminación del producto.
+    p.mb-5 A continuación, se estudiarán algunos de los procesos asociados al proceso de fabricación de la panela y las condiciones que debe cumplir cada uno de ellos:  
 
     .tarjeta.p-4.mb-5
       SlyderA(tipo="b")
@@ -303,7 +293,7 @@
         .row
           .col-md-3
             figure
-              img(src='@/assets/curso/temas/T1/img-21.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-21.svg', alt='Texto que describa la imagen')
           .col-md-7
             h4.mb-2 Transporte
             p.mb-3 Los productos deben protegerse durante el transporte para evitar la contaminación por fuentes microbiológicas, físicas o químicas. A pesar de las precauciones tomadas en operaciones anteriores, el riesgo de deterioro y contaminación del producto es muy alto si no se mantiene la higiene durante el transporte. El transporte debe ser de origen alimenticio y preferiblemente dedicado a la panela. Es importante mantenerlos limpios y en buen estado, y desinfectarlos cuando sea necesario.
@@ -323,34 +313,40 @@
 
     p.mb-4 Para reducir el impacto negativo de la actividad económica en el medio ambiente, la salud y la sociedad, el estado de Colombia ha emitido una serie de normas que rigen la realización de la actividad económica, incluida la producción de panela.
 
-    p.mb-5 <b>A continuación, se presenta de manera general la descripción de la problemática ambiental. </b>
+    p.mb-5 <b>Ahora presentaremos, de manera general, la descripción de la problemática ambiental:</b>
       
-    .titulo-sexto.color-acento-contenido
-      p.mb-0 
-        p.mb-1 <b>Figura 1.</b><i> Descripción de la problemática ambiental</i>
 
-    ImagenInfograficaB.color-banner-text.mb-5
+
+
+    ImagenInfografica.color-secundario.mb-5.btt
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/T1/img-23.png', alt='Texto que describa la imagen')
-
-      div(x="19%" y="15%" tooltip="Antecedentes")
+          img(src='@/assets/curso/temas/T1/img-23.svg')
+      .tarjeta.fnd-1.p-3(x="19.44%" y="16.5%" numero="+")
+        .h5.mb-2 Antecedentes
         p No existen estudios en esta área que analicen el impacto ambiental, social y de desarrollo humano de los productos procesados de caña de azúcar. Esto quiere decir que, solo se han encontrado y no enmarcados estudios generales en la producción de panela en los campos ambiental y social. 
 
-      div(x="12%" y="49%" tooltip="¿Quiénes están a cargo?")
+      .tarjeta.fnd-1.p-3(x="12.44%" y="50.5%" numero="+")
+        .h5.mb-2 ¿Quiénes están a cargo?
         p Principalmente las alcaldías, gobernaciones y las agencias gubernamentales responsables de todos estos temas y de los impactos ambientales.
 
-      div(x="20%" y="83%" tooltip="El papel que juega la agricultura")
+      .tarjeta.fnd-1.p-3(x="18.4%" y="85.4%" numero="+")
+        .h5.mb-2 El papel que juega la agricultura
         p Vale la pena señalar que la agricultura produce materias primas para la industria alimentaria, la mayoría de las cuales se destinan a la exportación a otras partes del país. La economía campesina se basa en la producción de alimentos a través de la agricultura tradicional, la cual está destinada al autoconsumo, con excepción del café, y comercializa solo los excedentes en el mercado local de panela.
 
-      div(x="78%" y="15%" tooltip="El manejo adecuado de los residuos sólidos")
+      .tarjeta.fnd-1.p-3(x="78.6%" y="16.4%" numero="+")
+        .h5.mb-2 El manejo adecuado de los residuos sólidos
         p Esta gestión incluye el manejo adecuado de los residuos sólidos, el control de las descargas de aguas residuales a los cuerpos de agua, la contaminación del aire por incineración y liberación de partículas de ceniza al medio ambiente, y el ruido por la realización de algunas actividades directas que impactan el medio ambiente, las comunidades circundantes y animales.
 
-      div(x="85%" y="49%" tooltip="¿Qué hacer?")
+      .tarjeta.fnd-1.p-3(x="85.7%" y="50%" numero="+")
+        .h5.mb-2 ¿Qué hacer?
         p Por estas razones, se debe implementar y gestionar constantemente como referencia un plan que incluya aspectos como el uso y conservación de los recursos hídricos y energéticos, la disposición adecuada de los residuos sólidos y el control de la calidad de las emisiones producidas.
 
-      div(x="78%" y="83%" tooltip="tooltip de max 35 caracteres")
+      .tarjeta.fnd-1.p-3(x="78.6%" y="85.34%" numero="+")
+        .h5.mb-2 ¿Cómo hacerlo?
         p Para hacer todo lo anterior, se debe ejecutar un ciclo PHVA. A continuación, se debe realizar una adecuada formación y sensibilización del 100 % del personal implicado en el proceso. Además, este sistema debe estar totalmente respaldado por los registros y controles necesarios, la supervisión y la mejora continua del sistema.
+
+
 
     ol.lista-ol--cuadro.mb-4
       li
@@ -360,9 +356,12 @@
       
     p.mb-5 A continuación, se presenta un diagrama de flujo que ilustra claramente cómo se lleva a cabo el proceso de producción panelera.
 
-    .titulo-sexto.color-acento-contenido
-      p.mb-0 
-        p.mb-1 <b>Figura 2.</b><i> Diagrama de flujo proceso de producción panelera</i>
+
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+      h5 Figura 1
+      p.mb-0
+        i Diagrama de flujo proceso de producción panelera
+      
 
     figure.mb-5
       img(src='@/assets/curso/temas/T1/img-24.png', alt='Texto que describa la imagen')
@@ -394,9 +393,7 @@
         
           .col-md-9
             figure
-              .titulo-sexto.color-acento-contenido
-                p.mb-0 
-                  p.mb-1 <b>Tabla 7.</b><i> Estructura de un procedimiento</i>
+
               img(src='@/assets/curso/temas/T1/img-26.png', alt='Texto que describa la imagen')
 
 
@@ -406,9 +403,6 @@
         
           .col-md-9
             figure
-              .titulo-sexto.color-acento-contenido
-                p.mb-0 
-                  p.mb-1 <b>Tabla 8.</b><i> Pre-limpieza</i>
               img(src='@/assets/curso/temas/T1/img-27.png', alt='Texto que describa la imagen')
 
 
@@ -418,9 +412,6 @@
         
           .col-md-9
             figure
-              .titulo-sexto.color-acento-contenido
-                p.mb-0 
-                  p.mb-1 <b>Tabla 9.</b><i> Clarificación</i>
               img(src='@/assets/curso/temas/T1/img-28.png', alt='Texto que describa la imagen')
               
         .row(titulo="")
@@ -429,9 +420,6 @@
         
           .col-md-9
             figure
-              .titulo-sexto.color-acento-contenido
-                p.mb-0 
-                  p.mb-1 <b>Tabla 10.</b><i> Evaporación</i>
               img(src='@/assets/curso/temas/T1/img-29.png', alt='Texto que describa la imagen')
 
         .row(titulo="")
@@ -440,9 +428,6 @@
         
           .col-md-9
             figure
-              .titulo-sexto.color-acento-contenido
-                p.mb-0 
-                  p.mb-1 <b>Tabla 11.</b><i> Punteo o batido</i>
               img(src='@/assets/curso/temas/T1/img-30.png', alt='Texto que describa la imagen')
 
         .row(titulo="")
@@ -451,9 +436,6 @@
         
           .col-md-9
             figure
-              .titulo-sexto.color-acento-contenido
-                p.mb-0 
-                  p.mb-1 <b>Tabla 12.</b><i> Moldeo y empaque</i>
               img(src='@/assets/curso/temas/T1/img-31.png', alt='Texto que describa la imagen')
 
 
@@ -468,9 +450,9 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/T1/img-32.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mt-4 Desde la década de 1970, la mayoría de los países han demostrado la necesidad de proteger el medio ambiente y los recursos naturales para garantizar el bienestar general y la salud de su población. Por lo tanto, las leyes se promulgaron durante este período y todavía están vigentes en la actualidad. Posteriormente, con el establecimiento de la constitución política de 1991, se promulgó una nueva legislación para desarrollar aún más las obligaciones ambientales de la carta magna. Por ejemplo, garantizar el derecho de todos los ciudadanos a un ambiente sano (artículo 79), proteger la riqueza natural del estado (artículo 8), controlar los agentes destructores del medio ambiente (artículo 80), etc.
+        p.mt-4 Desde la década de 1970, la mayoría de los países han demostrado la necesidad de proteger el medio ambiente y los recursos naturales para garantizar el bienestar general y la salud de su población. Por lo tanto, las leyes se promulgaron durante este período y todavía están vigentes en la actualidad. Posteriormente, con el establecimiento de la constitución política de 1991, se promulgó una nueva legislación para desarrollar aún más las obligaciones ambientales de la carta magna. Por ejemplo, garantizar el derecho de todos los ciudadanos a un ambiente sano (artículo 79), proteger la riqueza natural del estado (artículo 8), controlar los agentes destructores del medio ambiente (artículo 80).
 
-    p.mb-5 <b>A continuación, se presentan las normas ambientales aplicables al sector panelero.</b>
+    p.mb-5 <b>Veamos las normas ambientales aplicables al sector panelero:</b>
 
     .row(titulo="")
       .col-md-4
@@ -511,11 +493,13 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10
         .cajon.color-acento-botones.p-4.mb-4.color-lila
-          p En la actualidad, estos decretos se encuentran compilados en el decreto único del sector ambiente y desarrollo sostenible (Decreto 1076 de 2015). En la tabla 13 se indican las secciones del decreto único que son de mayor importancia para la producción de panela.
+          p En la actualidad, estos decretos se encuentran compilados en el decreto único del sector ambiente y desarrollo sostenible (Decreto 1076 de 2015). En la tabla se indican las secciones del decreto único, que son de mayor importancia para la producción de panela:
+
       
     .titulo-sexto.color-acento-contenido
+      h5 Tabla 1
       p.mb-0 
-        p.mb-1 <b>Tabla 13.</b><i> Secciones del Decreto 1076 de 2015 aplicables a la producción de panela</i>
+        i Secciones del Decreto 1076 de 2015 aplicables a la producción de panela
 
     figure.mb-5
       img(src='@/assets/curso/temas/T1/img-34.svg', alt='Texto que describa la imagen')
@@ -523,8 +507,9 @@
     p.mb-5 La tabla 14, muestra las resoluciones ambientales más relevantes que complementan el decreto anterior en lo que se refiere a la producción de panela.
 
     .titulo-sexto.color-acento-contenido
+      h5 Tabla 2
       p.mb-0 
-        p.mb-1 <b>Tabla 14.</b><i> Resoluciones ambientales aplicables a la producción de panela</i>
+        i Resoluciones ambientales aplicables a la producción de panela
 
     figure.mb-5
       img(src='@/assets/curso/temas/T1/img-35.svg', alt='Texto que describa la imagen')
@@ -535,80 +520,79 @@
           span 
         p <b>Ciclo PHVA</b>
 
-    p.mb-3 El ciclo PHVA es una herramienta de mejora continua, presentada por Deming a partir del año 1950, la cual se basa en un ciclo de 4 pasos: planificar (Plan), hacer (Do), verificar (<i>Check</i>) y actuar (Do).
+    p.mb-3 El ciclo PHVA es una herramienta de mejora continua, presentada por Deming a partir del año 1950, la cual se basa en un ciclo de 4 pasos: planificar (Plan), hacer (<i>Do</i>), verificar <i>(Check)</i> y actuar (<i>Do</i>).
     p.mb-5 A continuación, se presenta cada uno de estos pasos: 
 
-    .titulo-sexto.color-acento-contenido
-      p.mb-0 
-        p.mb-1 <b>Figura 3.</b><i> Ciclo PHVA</i>
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
 
-    ImagenInfografica.mb-5
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/T1/img-36.png', alt='Texto que describa la imagen')
+        ImagenInfografica.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/T1/img-36.png', alt='Texto que describa la imagen')
 
-      .tarjeta.color-tarjeta.p-3(x="75.4%" y="13.6%" tooltip="" numero="+")
-        .h5.mb-2 Planificar
-        ul.lista-ul.mb-3
-          li 
-            i.lista-ul__vineta
-            | Identificar aspectos ambientales en los procesos productivos de la industria panelera que puedan tener impacto en el medio ambiente.
-          li 
-            i.lista-ul__vineta
-            | Mejora del plan de gestión del proceso de molienda. El objetivo principal es aumentar la extracción de jugo de caña de azúcar del ingenio.
-          li 
-            i.lista-ul__vineta
-            | Programación de cursos de capacitación para el personal responsable de cada proceso de elaboración de la panela.
+          .tarjeta.color-tarjeta.p-3(x="75.4%" y="13.6%" tooltip="" numero="+")
+            .h5.mb-2 Planificar
+            ul.lista-ul.mb-3
+              li 
+                i.lista-ul__vineta
+                | Identificar aspectos ambientales en los procesos productivos de la industria panelera que puedan tener impacto en el medio ambiente.
+              li 
+                i.lista-ul__vineta
+                | Mejora del plan de gestión del proceso de molienda. El objetivo principal es aumentar la extracción de jugo de caña de azúcar del ingenio.
+              li 
+                i.lista-ul__vineta
+                | Programación de cursos de capacitación para el personal responsable de cada proceso de elaboración de la panela.
 
 
-      .tarjeta.color-tarjeta.p-3(x="94.8%" y="48%"  numero="+")
-        .h5.mb-2 Hacer
-        ul.lista-ul.mb-3
-          li 
-            i.lista-ul__vineta
-            | Construcción de una estufa ecológica que permita minimizar el consumo de leña y reducir las emisiones atmosféricas al medio ambiente.
-          li 
-            i.lista-ul__vineta
-            | Implantar un modelo de mejora continua en la fábrica.
-          li 
-            i.lista-ul__vineta
-            | Esto nos permite identificar los aspectos que influyen en la extracción del jugo bajo en azúcar: cuchillas desaladas y filtros en mal estado.
-        p La mitigación de estos problemas identificados se logrará de acuerdo con las siguientes actividades:
-        ul.lista-ul.mb-3
-          li 
-            i.lista-ul__vineta
-            | Cuchillas aladas que permitan un resultado de corte de la caña mejor y faciliten la extracción del jugo de azúcar.
-          li 
-            i.lista-ul__vineta
-            | Cambiar los filtros sucios por filtros nuevos y logrando así disminuir las impurezas en el jugo de caña de azúcar.
-        p La capacitación de los empleados permite buenas prácticas de fabricación en los procesos de producción de panela y permite el cumplimiento de los estándares de calidad del producto.
+          .tarjeta.color-tarjeta.p-3(x="94.8%" y="48%"  numero="+")
+            .h5.mb-2 Hacer
+            ul.lista-ul.mb-3
+              li 
+                i.lista-ul__vineta
+                | Construcción de una estufa ecológica que permita minimizar el consumo de leña y reducir las emisiones atmosféricas al medio ambiente.
+              li 
+                i.lista-ul__vineta
+                | Implantar un modelo de mejora continua en la fábrica.
+              li 
+                i.lista-ul__vineta
+                | Esto nos permite identificar los aspectos que influyen en la extracción del jugo bajo en azúcar: cuchillas desaladas y filtros en mal estado.
+            p La mitigación de estos problemas identificados se logrará de acuerdo con las siguientes actividades:
+            ul.lista-ul.mb-3
+              li 
+                i.lista-ul__vineta
+                | Cuchillas aladas que permitan un resultado de corte de la caña mejor y faciliten la extracción del jugo de azúcar.
+              li 
+                i.lista-ul__vineta
+                | Cambiar los filtros sucios por filtros nuevos y logrando así disminuir las impurezas en el jugo de caña de azúcar.
+            p La capacitación de los empleados permite buenas prácticas de fabricación en los procesos de producción de panela y permite el cumplimiento de los estándares de calidad del producto.
 
-      .tarjeta.color-tarjeta.p-3(x="24.8%" y="80%" numero="+")
-        .h5.mb-2 Verificar
-        ul.lista-ul.mb-3
-          li 
-            i.lista-ul__vineta
-            | Se realizará una auditoría que pueda verificar la conformidad con el sistema de gestión ambiental. 
-          li 
-            i.lista-ul__vineta
-            | Al término de las mejoras realizadas en la planificación y ejecución, se acuerda un tiempo de revisión del proceso de molienda, durante el cual se verifica el correcto funcionamiento de las propuestas.
-          li 
-            i.lista-ul__vineta
-            | Finalmente, se realizan las evaluaciones de cumplimiento legal.
-        
+          .tarjeta.color-tarjeta.p-3(x="24.8%" y="80%" numero="+")
+            .h5.mb-2 Verificar
+            ul.lista-ul.mb-3
+              li 
+                i.lista-ul__vineta
+                | Se realizará una auditoría que pueda verificar la conformidad con el sistema de gestión ambiental. 
+              li 
+                i.lista-ul__vineta
+                | Al término de las mejoras realizadas en la planificación y ejecución, se acuerda un tiempo de revisión del proceso de molienda, durante el cual se verifica el correcto funcionamiento de las propuestas.
+              li 
+                i.lista-ul__vineta
+                | Finalmente, se realizan las evaluaciones de cumplimiento legal.
+            
 
-      .tarjeta.color-tarjeta.p-3(x="5.4%" y="48%" numero="+")
-        .h5.mb-2 Actuar
-        ul.lista-ul.mb-3
-          li 
-            i.lista-ul__vineta
-            | Introducción de tecnología ambiental limpia que permite la mejora ambiental en el departamento de producción de Panela.
-          li 
-            i.lista-ul__vineta
-            | Al final del período de validación, los resultados se analizan y comparan para determinar si son aceptables y si se ha logrado la implementación.
-          li 
-            i.lista-ul__vineta
-            | Implementación de acciones correctivas al interior de la empresa a través de reuniones de grupos de trabajo demostrando los avances logrados en el proceso productivo de la panela.
+          .tarjeta.color-tarjeta.p-3(x="5.4%" y="48%" numero="+")
+            .h5.mb-2 Actuar
+            ul.lista-ul.mb-3
+              li 
+                i.lista-ul__vineta
+                | Introducción de tecnología ambiental limpia que permite la mejora ambiental en el departamento de producción de Panela.
+              li 
+                i.lista-ul__vineta
+                | Al final del período de validación, los resultados se analizan y comparan para determinar si son aceptables y si se ha logrado la implementación.
+              li 
+                i.lista-ul__vineta
+                | Implementación de acciones correctivas al interior de la empresa a través de reuniones de grupos de trabajo demostrando los avances logrados en el proceso productivo de la panela.
 
 </template>
 
@@ -617,7 +601,9 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
-    // variables de vue
+    modal1: false,
+    modal2: false,
+    modal3: false,
   }),
   mounted() {
     this.$nextTick(() => {

@@ -125,35 +125,31 @@ export default {
   },
   complementario: [
     {
-      tema:
-        'Buenas prácticas de manufactura y su contribución al sector panelero. ',
+      tema: 'Requerimientos técnicos y normativos',
       referencia:
-        'Regino Vergara, J., Vásquez García, O. R., Barbosa Castillo, S. M., Torres González, N. C., Cardona Vaquero, W., Rivera Vargas, G. M., ... & Tinoco Sánchez, B. A. (2019). Buenas prácticas de manufactura y su contribución al sector panelero. Corporación Universitaria Minuto de Dios.',
+        'Regino Vergara, J., Vásquez García, O. R., Barbosa Castillo, S. M., Torres González, N. C., Cardona Vaquero, W., Rivera Vargas, G. M. & Tinoco Sánchez, B. A. (2019).<i> Buenas prácticas de manufactura y su contribución al sector panelero. </i>Corporación Universitaria Minuto de Dios.',
       tipo: 'Libro ',
       link: 'https://repository.uniminuto.edu/handle/10656/7870 ',
     },
     {
-      tema:
-        'Estrategias para el manejo de subproductos derivados de la producción.',
+      tema: 'Proceso de generación de residuos',
       referencia:
-        'Quintero Trujillo, A. M., & Marín Ospina, C. A. (2020) Estrategias para el manejo de subproductos derivados de la producción de panela bajo un enfoque de producción más limpia en la vereda Aguacatal municipio Neira Caldas. UNAD.',
+        'Quintero Trujillo, A. M. & Marín Ospina, C. A. (2020) <i>Estrategias para el manejo de subproductos derivados de la producción de panela bajo un enfoque de producción más limpia en la vereda Aguacatal municipio Neira Caldas. </i>UNAD.',
       tipo: 'Artículo',
       link: 'https://repository.unad.edu.co/handle/10596/36819 ',
     },
     {
-      tema:
-        'Evaluación de técnicas para gestión de los residuos de la producción panelera (cachaza)',
+      tema: 'Proceso de generación de residuos',
       referencia:
-        'Beltrán Martínez, C. (2021). Evaluación de técnicas para gestión de Llos residuos de la producción panelera(cachaza) en la vereda Nacederos municipio de Quebradanegra-Cundinamarca. UDEC',
+        'Beltrán Martínez, C. (2021).<i> Evaluación de técnicas para gestión de los residuos de la producción panelera(cachaza) en la vereda Nacederos municipio de Quebradanegra-Cundinamarca.</i> UDEC.',
       tipo: 'Artículo',
       link:
         'https://repositorio.ucundinamarca.edu.co/handle/20.500.12558/3431 ',
     },
     {
-      tema:
-        'Diseño del plan y documentación para la implementación de buenas prácticas de manufactura para la elaboración de panela granulada en la planta Ingapi',
+      tema: 'Requerimientos técnicos y normativos',
       referencia:
-        'Quizanga Zambrano, V. C. (2009). Diseño del plan y documentación para la implementación de buenas prácticas de manufactura para la elaboración de panela granulada en la planta Ingapi (Bachelors thesis, QUITO/EPN/2009).',
+        'Quizanga Zambrano, V. C. (2009).<i> Diseño del plan y documentación para la implementación de buenas prácticas de manufactura para la elaboración de panela granulada en la planta Ingapi</i> (Bachelors thesis, QUITO/EPN/2009).',
       tipo: 'Artículo',
       link: 'https://bibdigital.epn.edu.ec/bitstream/15000/1683/1/CD-2014.pdf',
     },
@@ -222,28 +218,28 @@ export default {
   referencias: [
     {
       referencia:
-        'Ariza Ariza, C., Hidalgo González, N. F., & Caballero Colorado, F. D. (2013). Análisis de pre inversión para el mejoramiento y modernización de la planta de producción de panela de la finca San Luis Villeta Cundinamarca. Universidad Militar Nueva Granada. ',
+        'Ariza Ariza, C., Hidalgo González, N. F. & Caballero Colorado, F. D. (2013).<i> Análisis de pre inversión para el mejoramiento y modernización de la planta de producción de panela de la finca San Luis Villeta Cundinamarca.</i> Universidad Militar Nueva Granada.',
       link: 'http://repository.unimilitar.edu.co/handle/10654/7046 ',
     },
     {
       referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación. 2009. Norma técnica colombiana ntc 1311. Productos Agrícolas. Panela. Bogotá: Icontec',
+        'Instituto Colombiano de Normas Técnicas y Certificación. 2009. <i>Norma técnica colombiana ntc 1311.</i> Productos Agrícolas. Panela. Bogotá: Icontec.',
       link: '',
     },
     {
       referencia:
-        'Mendieta Menjura, O. A., García Muñoz, M. C., Peña Holguín, A. C., & Rodríguez Cortina, J. (2016). Las buenas prácticas de manufactura en la producción de panela. Corporación Colombiana de Investigación Agropecuaria - CORPOICA. ',
+        'Mendieta Menjura, O. A., García Muñoz, M. C., Peña Holguín, A. C. & Rodríguez Cortina, J. (2016). </i>Las buenas prácticas de manufactura en la producción de panela. Corporación Colombiana de Investigación Agropecuaria </i>- CORPOICA.',
       link: 'https://repository.agrosavia.co/handle/20.500.12324/34303 ',
     },
     {
       referencia:
-        'Osorio Arias, M. C., & Rodríguez Castillo, M. (2020). Efecto de la adición de residuos del proceso de producción de panela sobre los cultivos de caña. ',
+        'Osorio Arias, M. C. & Rodríguez Castillo, M. (2020).<i> Efecto de la adición de residuos del proceso de producción de panela sobre los cultivos de caña.</i> ',
       link:
         'https://repositorio.ucm.edu.co/bitstream/10839/2933/1/TRABAJO%20DE%20GRADO%20FINAL.pdf ',
     },
     {
       referencia:
-        'Ospina, C. A. (17 de septiembre de 2019). Residuos producidos durante el proceso de recolección, transformación y empaque de la panela. (M. C. Arias, & M. R. Castillo, Entrevistadores) ',
+        'Ospina, C. A. (2019). <i>Residuos producidos durante el proceso de recolección, transformación y empaque de la panela.</i> (M. C. Arias, & M. R. Castillo, Entrevistadores).',
       link: '',
     },
     {
@@ -253,12 +249,12 @@ export default {
     },
     {
       referencia:
-        'Silva Cardoza, K. (2013). Propuesta de norma técnica para la panela granulada y proceso para su elaboración y aprobación. Repositorio Institucional PIRHUA. ',
+        'Silva Cardoza, K. (2013). <i>Propuesta de norma técnica para la panela granulada y proceso para su elaboración y aprobación.</i> Repositorio Institucional PIRHUA. ',
       link: 'https://pirhua.udep.edu.pe/handle/11042/1741 ',
     },
     {
       referencia:
-        'Prada Forero, L. E., García Bernal, H. R., & Chaves Guerrero, A. (2015). Efecto de las variables de evaporación: presión y flujo calórico en la calidad de la panela. Ciencia y Tecnología Agropecuaria, 16(1), 7-23.',
+        'Prada Forero, L. E., García Bernal, H. R. & Chaves Guerrero, A. (2015). Efecto de las variables de evaporación: presión y flujo calórico en la calidad de la panela.<i> Ciencia y Tecnología Agropecuaria,</i> 16(1), p. 7-23.',
       link: '',
     },
   ],

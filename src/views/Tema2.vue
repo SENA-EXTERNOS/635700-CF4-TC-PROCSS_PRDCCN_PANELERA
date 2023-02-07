@@ -48,7 +48,7 @@
         p <b>Procesos de transformación</b>
       
     p.mb-3 Durante el proceso de producción de panela, la materia prima pasa por diferentes momentos que permiten la obtención del producto final, cada uno de estos procesos tiene unas características especiales.
-    p.mb-5 A continuación, se presentan cada uno de los procesos de transformación:
+    p.mb-5 De acuerdo con lo anterior, se presentan cada uno de los procesos de transformación:
 
 
     SlyderF.mb-5(columnas="col-lg-8 col-xl-4")
@@ -101,7 +101,7 @@
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
                 h2.text-center Efecto coagulante
-                p.text-center El efecto coagulante, a diferencia de la miel, es flocular las impurezas o sólidos contenidos en el jugo. Las impurezas, llamadas cachaza, son removidas y depositadas en la cachacera. Este producto tiene un alto valor nutricional para los animales (mulas o cerdos), (Ospina, 2019).
+                p.text-center El efecto coagulante, a diferencia de la miel, es flocular las impurezas o sólidos contenidos en el jugo. Las impurezas, llamadas cachaza, son removidas y depositadas en la cachacera. Este producto tiene un alto valor nutricional para los animales (mulas o cerdos). (Ospina, 2019)
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/T2/img-7.png')})`}")
       
       .row.mb-0
@@ -190,10 +190,13 @@
         
       .col-md-9
         p.mb-3 El principal residuo sólido producido en la industria de la caña de azúcar, después de triturar se llama bagazo;su uso principal es como combustible para estufas, pero tiene mucha humedad y debe secarse antes de su uso. Para ello, son llevados a un lugar llamado Bagasela. Allí se crea un nicho propicio para la colonización de moscas, abejas, avispas y roedores que pueden contaminar el producto final.
-        
+
+    p.mb-5 Se presenta la descripción de cada uno de los residuos de la caña:
+
     .titulo-sexto.color-acento-contenido
-      p.mb-0 
-        p.mb-1 <b>Figura 6.</b><i>Residuos de la caña</i>
+      h5 Figura 2
+      p.mb-0
+        i Residuos de la caña
 
     figure.mb-5
       img(src='@/assets/curso/temas/T2/img-13.png', alt='Texto que describa la imagen')
@@ -205,7 +208,7 @@
           img(src='@/assets/curso/temas/T2/img-14.png', alt='Texto que describa la imagen')
 
       .col-lg-7.fae
-        p <b>¡Muy bien!</b> ha finalizado el estudio de este componente formativo a través del cual ha aprendido sobre los requerimientos técnicos y normativos. Ahora lo invitamos a estudiar la síntesis donde podrá recordar de forma general los saberes que se han desarrollado, a realizar la actividad de aprendizaje donde podrá colocar a prueba lo aprendido, a consultar el material complementario que le servirá como refuerzo y profundización y estudiar el glosario.  
+        p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
       
 
 
