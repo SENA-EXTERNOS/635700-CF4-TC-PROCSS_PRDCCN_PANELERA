@@ -241,6 +241,7 @@
             figure
               img(src='@/assets/curso/temas/T1/img-17.png', alt='Texto que describa la imagen')
           .col-md-7
+            h4 Zona del tren de pailas (clarificación, evaporación y concentración de jugos)
             p.mb-3 En el área donde se lleva a cabo este proceso, los vapores generados deben disiparse a través de conductos de ventilación o techo para que puedan escapar y no regresar al proceso en forma de gotas. La corteza utilizada para la clarificación del jugo debe lavarse con agua potable, ya sea que se empape directamente en el jugo o que la solución clarificada se prepare en un tanque separado. También es fundamental que los tanques y equipos utilizados para fabricar y aplicar el agente de limpieza estén en buenas condiciones, limpios y desinfectados.
             p Si es necesario controlar el pH del zumo, la sustancia añadida debe ser de carácter nutritivo (cal, bicarbonato, etc.). Se añade aceite (un agente antiespumante) para evitar la formación de espuma en la sartén, pero debe ser apto para alimentos, es decir, apto para el consumo humano. Es importante que nunca se añada claral (hidrosulfito de sodio) ni colorantes de ningún tipo en la elaboración de la panela.
         .row
@@ -364,7 +365,7 @@
       
 
     figure.mb-5
-      img(src='@/assets/curso/temas/T1/img-24.png', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/temas/T1/img-24.svg', alt='Texto que describa la imagen')
 
     ol.lista-ol--cuadro.mb-4
       li
@@ -504,7 +505,7 @@
     figure.mb-5
       img(src='@/assets/curso/temas/T1/img-34.svg', alt='Texto que describa la imagen')
 
-    p.mb-5 La tabla 14, muestra las resoluciones ambientales más relevantes que complementan el decreto anterior en lo que se refiere a la producción de panela.
+    p.mb-5 La tabla, muestra las resoluciones ambientales más relevantes que complementan el decreto anterior, en lo que se refiere a la producción de panela:
 
     .titulo-sexto.color-acento-contenido
       h5 Tabla 2
