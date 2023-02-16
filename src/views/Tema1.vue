@@ -114,17 +114,17 @@
           .col-md-8.mb-4.mb-md-0
             h4.mb-3 Registro
             p.mb-3 Este es un documento que habla de un evento o evento específico, que requiere verificación oficial permanente. Cada programa requiere un conjunto de formatos que, una vez completados, se convierten en registros con fines de auditoría o trazabilidad.
-            p.mb-0 Entre los registros se encuentran:
+            p.mb-2 Entre los registros se encuentran:
             ul.lista-ul.mb-3
               li 
                 i.lista-ul__vineta
-                | Registro de control de proveedores.
+                p.mb-0 Registro de control de proveedores.
               li 
                 i.lista-ul__vineta
-                | Registro de operaciones de proceso.
+                p.mb-0 Registro de operaciones de proceso.
               li 
                 i.lista-ul__vineta
-                | Registro de control de higiene del personal.
+                p.mb-0 Registro de control de higiene del personal.
 
             p.mb-3 Las anotaciones realizadas en los registros deben ser legibles y reflejar fielmente las circunstancias que se documentan. Es importante señalar errores y cambios. Si el registro cambia y solo incluye la inspección final que ha sido corregida, se pierde información que puede usarse para mejoras futuras.
             p.mb-3 Por ejemplo, es una buena idea anotar las dimensiones originales, tachar con una línea si se ha modificado y pedirle al revisor que escriba sus iniciales al lado. Cada entrada en el registro debe ser realizada por la persona responsable cuando ocurre el evento. Los registros completos deben ser firmados y fechados por la persona responsable del monitoreo y mantenidos en el sitio de producción de panela para estar disponibles en todo momento.
@@ -265,6 +265,7 @@
             figure
               img(src='@/assets/curso/temas/T1/img-18.png', alt='Texto que describa la imagen')
           .col-md-7
+            h4.mb-2 Batido y moldeo
             p.mb-3 El propósito del paso de evaporación anterior era eliminar el agua del jugo, por lo que no se debe agregar agua al batido; esto puede acortar la vida útil de panela y agregar impurezas al producto. Los gérmenes son invisibles a simple vista, se pueden producir o transmitir de un alimento a otro por contacto directo, manos sucias de los trabajadores, utensilios mal higienizados (mesas, cajones, etc.), o a través del aire, por ello, es muy importante seguir las normas establecidas, protocolos para los procesos de limpieza y desinfección del personal (manos del operador), equipos e instalaciones. El molde debe estar libre de óxido y en perfectas condiciones. 
             p Los tanques para la limpieza de utensilios como cajones y tarimas deben cambiarse de agua potable cada seis (6) horas para evitar la propagación de microorganismos.
         .row
@@ -277,7 +278,7 @@
         .row
           .col-md-3
             figure
-              img(src='@/assets/curso/temas/T1/img-20.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-20-.png', alt='Texto que describa la imagen')
           .col-md-7
             h4.mb-2 Envase y embalaje
             p.mb-3 El material del empaque individual debe proteger la panela de la contaminación y mantener el producto en buenas condiciones hasta que llegue al consumidor; debe estar completamente sellado para evitar la entrada de contaminantes. La envoltura retráctil es la opción más nueva.
@@ -294,7 +295,7 @@
         .row
           .col-md-3
             figure
-              img(src='@/assets/curso/temas/T1/img-21.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-22.png', alt='Texto que describa la imagen')
           .col-md-7
             h4.mb-2 Transporte
             p.mb-3 Los productos deben protegerse durante el transporte para evitar la contaminación por fuentes microbiológicas, físicas o químicas. A pesar de las precauciones tomadas en operaciones anteriores, el riesgo de deterioro y contaminación del producto es muy alto si no se mantiene la higiene durante el transporte. El transporte debe ser de origen alimenticio y preferiblemente dedicado a la panela. Es importante mantenerlos limpios y en buen estado, y desinfectarlos cuando sea necesario.
@@ -304,6 +305,7 @@
             figure
               img(src='@/assets/curso/temas/T1/img-22.png', alt='Texto que describa la imagen')
           .col-md-7
+            h4.mb-2 Transporte
             p.mb-3 Es importante llevar y mantener registros de la producción y distribución de panela. Debe indicar la cantidad producida, la cantidad en stock, la composición y el número del lote retirado, la región de distribución (por ejemplo, local, nacional o internacional) y el motivo del retiro. Este documento da confianza al sistema de control de seguridad implementado por la planta de fabricación.
             p No se permite mezclar lotes de panela de alta calidad con lotes defectuosos o lotes con niveles inaceptables de contaminación y, si esto ocurre, el producto final se considerará adulterado.
 
