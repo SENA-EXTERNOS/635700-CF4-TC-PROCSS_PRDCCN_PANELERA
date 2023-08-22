@@ -189,7 +189,7 @@
           img(src='@/assets/curso/temas/T2/img-12.png', alt='Texto que describa la imagen')
         
       .col-md-9
-        p.mb-3 El principal residuo sólido producido en la industria de la caña de azúcar, después de triturar se llama bagazo;su uso principal es como combustible para estufas, pero tiene mucha humedad y debe secarse antes de su uso. Para ello, son llevados a un lugar llamado Bagasela. Allí se crea un nicho propicio para la colonización de moscas, abejas, avispas y roedores que pueden contaminar el producto final.
+        p.mb-3 El principal residuo sólido producido en la industria de la caña de azúcar, después de triturar se llama bagazo; su uso principal es como combustible para estufas, pero tiene mucha humedad y debe secarse antes de su uso. Para ello, son llevados a un lugar llamado Bagasela. Allí se crea un nicho propicio para la colonización de moscas, abejas, avispas y roedores que pueden contaminar el producto final.
 
     p.mb-5 Se presenta la descripción de cada uno de los residuos de la caña:
 

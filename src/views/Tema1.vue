@@ -532,7 +532,7 @@
         ImagenInfografica.mb-5
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/T1/img-36.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-36_1.png', alt='Texto que describa la imagen')
 
           .tarjeta.color-tarjeta.p-3(x="75.4%" y="13.6%" tooltip="" numero="+")
             .h5.mb-2 Planificar
@@ -549,6 +549,32 @@
 
 
           .tarjeta.color-tarjeta.p-3(x="94.8%" y="48%"  numero="+")
+            .h5.mb-2 Actuar
+            ul.lista-ul.mb-3
+              li 
+                i.lista-ul__vineta
+                | Introducción de tecnología ambiental limpia que permite la mejora ambiental en el departamento de producción de Panela.
+              li 
+                i.lista-ul__vineta
+                | Al final del período de validación, los resultados se analizan y comparan para determinar si son aceptables y si se ha logrado la implementación.
+              li 
+                i.lista-ul__vineta
+                | Implementación de acciones correctivas al interior de la empresa a través de reuniones de grupos de trabajo demostrando los avances logrados en el proceso productivo de la panela.
+          .tarjeta.color-tarjeta.p-3(x="24.8%" y="80%" numero="+")
+            .h5.mb-2 Verificar
+            ul.lista-ul.mb-3
+              li 
+                i.lista-ul__vineta
+                | Se realizará una auditoría que pueda verificar la conformidad con el sistema de gestión ambiental. 
+              li 
+                i.lista-ul__vineta
+                | Al término de las mejoras realizadas en la planificación y ejecución, se acuerda un tiempo de revisión del proceso de molienda, durante el cual se verifica el correcto funcionamiento de las propuestas.
+              li 
+                i.lista-ul__vineta
+                | Finalmente, se realizan las evaluaciones de cumplimiento legal.
+            
+
+          .tarjeta.color-tarjeta.p-3(x="5.4%" y="48%" numero="+")
             .h5.mb-2 Hacer
             ul.lista-ul.mb-3
               li 
@@ -568,34 +594,8 @@
               li 
                 i.lista-ul__vineta
                 | Cambiar los filtros sucios por filtros nuevos y logrando así disminuir las impurezas en el jugo de caña de azúcar.
-            p La capacitación de los empleados permite buenas prácticas de fabricación en los procesos de producción de panela y permite el cumplimiento de los estándares de calidad del producto.
+            p La capacitación de los empleados permite buenas prácticas de fabricación en los procesos de producción de panela y permite el cumplimiento de los estándares de calidad del producto.          
 
-          .tarjeta.color-tarjeta.p-3(x="24.8%" y="80%" numero="+")
-            .h5.mb-2 Verificar
-            ul.lista-ul.mb-3
-              li 
-                i.lista-ul__vineta
-                | Se realizará una auditoría que pueda verificar la conformidad con el sistema de gestión ambiental. 
-              li 
-                i.lista-ul__vineta
-                | Al término de las mejoras realizadas en la planificación y ejecución, se acuerda un tiempo de revisión del proceso de molienda, durante el cual se verifica el correcto funcionamiento de las propuestas.
-              li 
-                i.lista-ul__vineta
-                | Finalmente, se realizan las evaluaciones de cumplimiento legal.
-            
-
-          .tarjeta.color-tarjeta.p-3(x="5.4%" y="48%" numero="+")
-            .h5.mb-2 Actuar
-            ul.lista-ul.mb-3
-              li 
-                i.lista-ul__vineta
-                | Introducción de tecnología ambiental limpia que permite la mejora ambiental en el departamento de producción de Panela.
-              li 
-                i.lista-ul__vineta
-                | Al final del período de validación, los resultados se analizan y comparan para determinar si son aceptables y si se ha logrado la implementación.
-              li 
-                i.lista-ul__vineta
-                | Implementación de acciones correctivas al interior de la empresa a través de reuniones de grupos de trabajo demostrando los avances logrados en el proceso productivo de la panela.
 
 </template>
 
