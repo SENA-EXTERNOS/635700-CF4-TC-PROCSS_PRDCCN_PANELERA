@@ -68,13 +68,13 @@
           h4.mb-3 Programas
           p.mb-3 Un programa es un plan ordenado de varias actividades a realizar. Entre ellos, encontramos: programa de saneamiento, programa de limpieza y desinfección, programa de control de plagas, programa de manejo de residuos sólidos y líquidos, programa de mantenimiento de equipos. 
           p En las siguientes tablas, podrá encontrar algunos ejemplos relacionados con el programa de saneamiento, programa maestro de desinfección y programa de mantenimiento de equipos.
-          p Haga clic en cada tabla para ampliarla.
+          
           .col-lg-12
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-4.mb-3
                 a.lnk(@click="modal1 = true")
                   figure
-                    img(src='@/assets/curso/temas/T1/tbl-1.svg')
+                    img(src='@/assets/curso/temas/T1/tbl-1-.svg')
 
               .col-lg-4.mb-3
                 a.indicador__container(@click="modal2 = true")
@@ -108,7 +108,7 @@
         
           .col-md-7
             figure
-              img(src='@/assets/curso/temas/T1/img-8.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-8-.png', alt='Texto que describa la imagen')
 
         .row(titulo="")
           .col-md-8.mb-4.mb-md-0
@@ -168,7 +168,7 @@
     ModalA(:abrir-modal.sync="modal1")
       .row.align-items-center
           figure
-            img(src='@/assets/curso/temas/T1/tbl-1.svg')
+            img(src='@/assets/curso/temas/T1/tbl-1-.svg')
     ModalA(:abrir-modal.sync="modal2")
       .row.align-items-center
           figure
@@ -188,13 +188,13 @@
         .row(titulo="Manejo de jugos")
           .col-md-12.mb-4.mb-md-5
             .tarjeta.color-tarjetas.p-4.mb-4
-              p.mb-5 Para la limpieza de la materia prima, se utiliza un equipo llamado pre-limpiador, el cual está soportado por una malla filtrante que utiliza el principio de separación física por densidad. Las partículas pesadas van al fondo del antefiltro y las partículas ligeras se separan por flotación. Debe mantenerse separado del molinillo para evitar la contaminación por otros medios. Por lo tanto, el jugo crudo se envía a través de una tubería de plástico al pre-limpiador. Se recomienda el uso del pre-limpiador cuando el volumen de molienda es inferior a 1 tonelada por hora, (Prada, L., 2002).
+              p.mb-5 Para la limpieza de la materia prima, se utiliza un equipo llamado prelimpiador, el cual está soportado por una malla filtrante que utiliza el principio de separación física por densidad. Las partículas pesadas van al fondo del antefiltro y las partículas ligeras se separan por flotación. Debe mantenerse separado del molinillo para evitar la contaminación por otros medios. Por lo tanto, el jugo crudo se envía a través de una tubería de plástico al prelimpiador. Se recomienda el uso del prelimpiador cuando el volumen de molienda es inferior a 1 tonelada por hora, (Prada, L., 2002).
         
       .col-3.d-none.d-lg-flex.position-relative
         figure
           img(data-aos='fade-left')(src='@/assets/curso/temas/T1/img-13.svg')    
 
-      p.mb-5 En el video que se presenta a continuación, aprenderá sobre las condiciones de saneamiento, una técnica que siempre debe ser incluida en los procesos de limpieza de la materia prima:
+      p.mb-5 En el video que se presenta a continuación, aprenderá sobre las condiciones de saneamiento, una técnica que siempre debe ser incluida en los procesos de limpieza de la materia prima.
       
       figure.mb-5
         .video
@@ -291,7 +291,7 @@
             h4.mb-2 Almacenamiento
             p.mb-3 La panela debe almacenarse en un ambiente seco con baja humedad relativa en un almacén limpio dedicado para este fin. Se recomienda ventilar el almacén y aislarlo lo más posible para evitar la humedad y la contaminación del producto.
             p.mb-3 Es un producto higroscópico, debe almacenarse lejos de las áreas húmedas del proceso de concentración donde hay vapor presente y el producto puede absorber humedad y deteriorarse. También es importante mantenerlo alejado de la basura y otras fuentes de contaminación.
-            p Se debe almacenarse de manera que quien ingrese primero a la bodega tenga prioridad para su comercialización y consumo. La bodega tiene capacidad suficiente para la cantidad que se produce en la fábrica y se requiere que tenga dos puertas, uno para la recogida del producto y del operador, y otro para la entrega del producto directamente al vehículo.
+            p Se debe almacenar de manera que quien ingrese primero a la bodega tenga prioridad para su comercialización y consumo. La bodega tiene capacidad suficiente para la cantidad que se produce en la fábrica y se requiere que tenga dos puertas, uno para la recogida del producto y del operador, y otro para la entrega del producto directamente al vehículo.
         .row
           .col-md-3
             figure
@@ -402,11 +402,11 @@
 
         .row(titulo="")
           .col-md-3.mb-4.mb-md-0
-            h4.mb-3 Pre-limpieza
+            h4.mb-3 Prelimpieza
         
           .col-md-9
             figure
-              img(src='@/assets/curso/temas/T1/img-27.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-27-.png', alt='Texto que describa la imagen')
 
 
         .row(titulo="")
@@ -553,7 +553,7 @@
             ul.lista-ul.mb-3
               li 
                 i.lista-ul__vineta
-                | Introducción de tecnología ambiental limpia que permite la mejora ambiental en el departamento de producción de Panela.
+                | Introducción de tecnología ambiental limpia que permite la mejora ambiental en el departamento de producción de panela.
               li 
                 i.lista-ul__vineta
                 | Al final del período de validación, los resultados se analizan y comparan para determinar si son aceptables y si se ha logrado la implementación.

@@ -71,7 +71,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Recolección de caña panelera',
+            titulo: 'Recolección de la caña panelera',
             hash: 't_2_1',
           },
           {
@@ -163,16 +163,16 @@ export default {
     {
       termino: 'Aseguramiento de la calidad',
       significado:
-        'conjunto de actividades planificadas y sistemáticas, aplicadas en un sistema de buenas prácticas de manufactura (bpm), para que los requisitos de calidad de un alimento sean satisfechos.',
+        'conjunto de actividades planificadas y sistemáticas, aplicadas en un sistema de buenas prácticas de manufactura (BPM), para que los requisitos de calidad de un alimento sean satisfechos.',
     },
     {
       termino: 'Bagacillo',
       significado:
-        'fibra muy fina de la caña producto del proceso donde el jugo de la caña pasa por el tanque pre-limpiador; está compuesto por tierra, raíces, hojas y otras impurezas que llegan con la planta al molino.',
+        'fibra muy fina de la caña producto del proceso donde el jugo de la caña pasa por el tanque prelimpiador; está compuesto por tierra, raíces, hojas y otras impurezas que llegan con la planta al molino.',
     },
     {
       termino: 'BPM',
-      significado: 'Buenas Prácticas de Manufactura. ',
+      significado: ' Buenas Prácticas de Manufactura. ',
     },
     {
       termino: 'Higienizar',
@@ -197,7 +197,7 @@ export default {
     {
       termino: 'Orden de trabajo',
       significado:
-        'documento que contiene instrucciones escritas y procedimientos de apoyo para actividades específicas. Algunos de ellos son: instructivo de limpieza, Instructivo de desinfección.',
+        'documento que contiene instrucciones escritas y procedimientos de apoyo para actividades específicas. Algunos de ellos son: instructivo de limpieza, instructivo de desinfección.',
     },
     {
       termino: 'Residuos',
@@ -224,7 +224,7 @@ export default {
     {
       referencia:
         'Instituto Colombiano de Normas Técnicas y Certificación. 2009. <i>Norma técnica colombiana ntc 1311.</i> Productos Agrícolas. Panela. Bogotá: Icontec.',
-      link: '',
+      link: 'https://pdfcoffee.com/ntc-1311-panela-5-pdf-free.html',
     },
     {
       referencia:
@@ -239,13 +239,9 @@ export default {
     },
     {
       referencia:
-        'Ospina, C. A. (2019). <i>Residuos producidos durante el proceso de recolección, transformación y empaque de la panela.</i> (M. C. Arias, & M. R. Castillo, Entrevistadores).',
-      link: '',
-    },
-    {
-      referencia:
         'Resolución 000779 de 2006. [Ministerio de Protección Social]. Por la cual se establece el reglamento técnico sobre los requisitos sanitarios que se deben cumplir en la producción y comercialización de la panela para consumo humano y se dictan otras disposiciones. Marzo 17 de 2006.',
-      link: '',
+      link:
+        'https://www.icbf.gov.co/cargues/avance/docs/resolucion_minproteccion_0779_2006.htm',
     },
     {
       referencia:

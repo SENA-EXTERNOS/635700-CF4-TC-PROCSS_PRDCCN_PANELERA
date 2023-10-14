@@ -79,7 +79,7 @@
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
                 h2.text-center Jugo
-                p.text-center El jugo pre purificado ya extraído se lleva a un pozo donde se almacena el producto y finalmente a un horno utilizado para la concentración y evaporación de la miel. Se añade un coagulante durante este último proceso, (Ospina, 2019).
+                p.text-center El jugo prepurificado ya extraído se lleva a un pozo donde se almacena el producto y finalmente a un horno utilizado para la concentración y evaporación de la miel. Se añade un coagulante durante este último proceso, (Ospina, 2019).
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/T2/img-5.png')})`}")
 
       
@@ -199,7 +199,7 @@
         i Residuos de la caña
 
     figure.mb-5
-      img(src='@/assets/curso/temas/T2/img-13.png', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/temas/T2/img-13-.png', alt='Texto que describa la imagen')
 
 
     .row.traslape.justify-content-center.align-items-center.mb-5

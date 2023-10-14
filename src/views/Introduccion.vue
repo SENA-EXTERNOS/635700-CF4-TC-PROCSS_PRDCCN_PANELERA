@@ -11,8 +11,8 @@
 
     .row.mb-5
       .col-12.col-lg-7
-        p Apreciado aprendiz, bienvenido a este componente formativo, orientado a los requerimientos técnicos y normativos sobre las buenas prácticas de la manufactura (BPM), técnicas estas de limpieza de la materia prima con normativa legal y procesos de generación de residuos, todos ellos asociados al proceso de producción de la panela. Lo anterior, con el propósito de reconocer las normas técnicas que establecen los requisitos de higiene desde la fabricación, hasta la comercialización de la panela, lo que garantiza la calidad del producto final.
-        p En el siguiente video conocerá de forma general, la temática que estudiará a lo largo de este componente formativo:
+        p Apreciado aprendiz, bienvenido a este componente formativo orientado al conocimiento de la preparación de la materia prima y de los insumos para la producción panelera. En un primer momento, identificará los equipos e instrumentos indispensables para dicha preparación, y aprenderá aspectos importantes que deben ser considerados para el mantenimiento de tales instrumentos; en un segundo momento, aprenderá sobre el proceso del trasiego de mieles, el papel que juega la temperatura en la concentración de los jugos de la caña y su manipulación.
+
 
       .col-5.d-none.d-lg-flex.align-self-center
         figure
