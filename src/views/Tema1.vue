@@ -46,10 +46,10 @@
             p.mb-3 Un procedimiento es una forma o método de realizar una actividad. Entre ellos, encontramos: procedimiento de control de producción, procedimiento de control de plagas, procedimiento de retiro de productos, procedimiento de validación del programa de saneamiento, procedimiento de control de proveedores, procedimiento de control de productos no conformes.
             p.mb-3 En la tabla, podrá identificar la estructura de un procedimiento.
         
-          .col-md-7
+          .col-md-7.px-4
             figure
               
-              img(src='@/assets/curso/temas/T1/img-3.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-3.svg', alt='Texto que describa la imagen')
 
 
         .row(titulo="")
@@ -61,7 +61,7 @@
           .col-md-7
             figure
               
-              img(src='@/assets/curso/temas/T1/img-4.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-4.svg', alt='Texto que describa la imagen')
 
 
         .row(titulo="")
@@ -69,22 +69,22 @@
           p.mb-3 Un programa es un plan ordenado de varias actividades a realizar. Entre ellos, encontramos: programa de saneamiento, programa de limpieza y desinfección, programa de control de plagas, programa de manejo de residuos sólidos y líquidos, programa de mantenimiento de equipos. 
           p En las siguientes tablas, podrá encontrar algunos ejemplos relacionados con el programa de saneamiento, programa maestro de desinfección y programa de mantenimiento de equipos.
           
-          .col-lg-12
+          .col-lg-12.px-5
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-4.mb-3
                 a.lnk(@click="modal1 = true")
                   figure
-                    img(src='@/assets/curso/temas/T1/tbl-1-.svg')
+                    img(src='@/assets/curso/temas/T1/tbl1.svg')
 
               .col-lg-4.mb-3
                 a.indicador__container(@click="modal2 = true")
                   figure
-                    img(src='@/assets/curso/temas/T1/tbl-2.svg')
+                    img(src='@/assets/curso/temas/T1/tbl2.svg')
 
               .col-lg-4
                 a.indicador__container(@click="modal3 = true")
                   figure
-                    img(src='@/assets/curso/temas/T1/tbl-3.svg')
+                    img(src='@/assets/curso/temas/T1/tbl3.svg')
 
         .row(titulo="")
           .col-md-5.mb-4.mb-md-0
@@ -108,7 +108,7 @@
         
           .col-md-7
             figure
-              img(src='@/assets/curso/temas/T1/img-8-.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-8.svg', alt='Texto que describa la imagen')
 
         .row(titulo="")
           .col-md-8.mb-4.mb-md-0
@@ -141,7 +141,7 @@
         
           .col-md-7
             figure
-              img(src='@/assets/curso/temas/T1/img-10.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-10.svg', alt='Texto que describa la imagen')
 
         .row(titulo="")
           .col-md-8.mb-4.mb-md-0
@@ -168,15 +168,15 @@
     ModalA(:abrir-modal.sync="modal1")
       .row.align-items-center
           figure
-            img(src='@/assets/curso/temas/T1/tbl-1-.svg')
+            img(src='@/assets/curso/temas/T1/tbl1.svg')
     ModalA(:abrir-modal.sync="modal2")
       .row.align-items-center
           figure
-            img(src='@/assets/curso/temas/T1/tbl-2.svg')
+            img(src='@/assets/curso/temas/T1/tbl2.svg')
     ModalA(:abrir-modal.sync="modal3")
       .row.align-items-center
           figure
-            img(src='@/assets/curso/temas/T1/tbl-3.svg')            
+            img(src='@/assets/curso/temas/T1/tbl3.svg')            
 
     Separador
 
@@ -397,7 +397,7 @@
           .col-md-9
             figure
 
-              img(src='@/assets/curso/temas/T1/img-26.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-26-.png', alt='Texto que describa la imagen')
 
 
         .row(titulo="")
@@ -406,7 +406,7 @@
         
           .col-md-9
             figure
-              img(src='@/assets/curso/temas/T1/img-27-.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-27.svg', alt='Texto que describa la imagen')
 
 
         .row(titulo="")
@@ -415,7 +415,7 @@
         
           .col-md-9
             figure
-              img(src='@/assets/curso/temas/T1/img-28.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-28.svg', alt='Texto que describa la imagen')
               
         .row(titulo="")
           .col-md-3.mb-4.mb-md-0
@@ -423,7 +423,7 @@
         
           .col-md-9
             figure
-              img(src='@/assets/curso/temas/T1/img-29.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-29.svg', alt='Texto que describa la imagen')
 
         .row(titulo="")
           .col-md-3.mb-4.mb-md-0
@@ -431,7 +431,7 @@
         
           .col-md-9
             figure
-              img(src='@/assets/curso/temas/T1/img-30.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-30.svg', alt='Texto que describa la imagen')
 
         .row(titulo="")
           .col-md-3.mb-4.mb-md-0
@@ -439,7 +439,7 @@
         
           .col-md-9
             figure
-              img(src='@/assets/curso/temas/T1/img-31.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T1/img-31.svg', alt='Texto que describa la imagen')
 
 
     ol.lista-ol--cuadro.mb-4
@@ -515,7 +515,7 @@
         i Resoluciones ambientales aplicables a la producción de panela
 
     figure.mb-5
-      img(src='@/assets/curso/temas/T1/img-35.svg', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/temas/T1/img-35-.svg', alt='Texto que describa la imagen')
 
     ol.lista-ol--cuadro.mb-4
       li
