@@ -84,7 +84,7 @@
               .col-lg-4
                 a.indicador__container(@click="modal3 = true")
                   figure
-                    img(src='@/assets/curso/temas/T1/tbl3.svg')
+                    img(src='@/assets/curso/temas/T1/tbl3-.svg')
 
         .row(titulo="")
           .col-md-5.mb-4.mb-md-0
@@ -176,7 +176,7 @@
     ModalA(:abrir-modal.sync="modal3")
       .row.align-items-center
           figure
-            img(src='@/assets/curso/temas/T1/tbl3.svg')            
+            img(src='@/assets/curso/temas/T1/tbl3-.svg')            
 
     Separador
 
@@ -496,9 +496,21 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10
         .cajon.color-acento-botones.p-4.mb-4.color-lila
-          p En la actualidad, estos decretos se encuentran compilados en el decreto único del sector ambiente y desarrollo sostenible (Decreto 1076 de 2015). En la tabla se indican las secciones del decreto único, que son de mayor importancia para la producción de panela:
+          p En la actualidad, estos decretos se encuentran compilados en el decreto único del sector ambiente y desarrollo sostenible (Decreto 1076 de 2015). Haga clic en el botón anexo para acceder a la información. 
 
-      
+          .mb-3.aling-r 
+            a.boton.me-3.indicador__container(
+              :href="obtenerLink('downloads/CF4 Legislacion ambiental aplicable y actual.pdf')"
+              target="_blank"
+              type="application/pdf"
+              @mouseover="mostrarIndicador = false"
+            )
+              span Anexo. Tablas.
+              i.fas.fa-file-download
+              .indicador--click(v-if="mostrarIndicador")
+
+
+
     .titulo-sexto.color-acento-contenido
       h5 Tabla 1
       p.mb-0 
